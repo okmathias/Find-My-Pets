@@ -294,7 +294,7 @@ body {
     padding-right: 750px;
 
    
-    background: linear-gradient(to right, #eef4f5 50%, #eef4f5  50%, #FFFFFF 50%, #FFFFFF 50%);
+    background: linear-gradient(to right, #eef4f5 50%, #eef4f5  50%, #eef4f5 50%, #eef4f5 50%);
     color: #283962;
     width: 85%;
    
@@ -308,7 +308,7 @@ body {
 .box-model623 img {
     position: absolute;
     margin-top: 74px;
-    margin-left: -143px;
+    margin-left: -121px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
  
