@@ -11,7 +11,6 @@
 html {
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
-
 }
 
 li {
@@ -76,7 +75,6 @@ a {
     font-size: 2.1rem;
     font-weight: 500;
     color: #283962;
-    
 }
 
 @media only screen and (max-width: 768px) {
@@ -133,9 +131,6 @@ a {
     {display:none;}
   }
 
-  
-
-
 @media only screen and (min-width: 680px) {
     .box-model 
     {display:none;}
@@ -143,10 +138,8 @@ a {
 
   @media only screen and (min-width: 680px) {
     .flex-screen2
-    
     {display:none;}
   }
-
 
   @media only screen and (max-width: 600px) {
     .box-model3 
@@ -188,10 +181,6 @@ a {
     {display:none;}
    }
 
- 
-  
-
-
 body {
 	background: #EDEDED;
 }
@@ -225,7 +214,6 @@ body {
     font-family:'Poppins', sans-serif;
     z-index: 5;
 }
-
 
 .box-model4 {
     padding: 5px;
@@ -286,19 +274,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
 .box-model6 {
     height: 457px;
     padding-left: 100px;
     padding-top: 70px;
     padding-right: 750px;
-
-   
     background: linear-gradient(to right, #eef4f5 50%, #eef4f5  50%, #eef4f5 50%, #eef4f5 50%);
     color: #283962;
     width: 85%;
-   
-	
 	border-radius: 25px; 
     line-height: 120%;
     font-size:  1.90rem;
@@ -311,8 +294,6 @@ body {
     margin-left: -121px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
- 
-
 }
 
 .box-model62 {
@@ -385,11 +366,7 @@ body {
     font-weight: 500;
     color: #283962;
     text-align: center;
-    
-    
 }
-
-
 
 .flex-container2 {
     display: flex;
@@ -420,9 +397,7 @@ body {
     width: 150px;
     text-align: center;
     margin-top: -160px;
-
 }
-
 
 .flex-container6 {
     display: flex;
@@ -439,7 +414,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 60px;
-
 }
 
 .flex-item6 {
@@ -454,7 +428,6 @@ body {
 .flex-item6 img {
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
-
 }
 
 .flex-screen7 {
@@ -463,15 +436,11 @@ body {
     gap: 300px;
     text-align: center;
     font-weight:500;
-    
-
-  
 }
 
 .flex-screen7 img {
     border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    
+    border-top-right-radius: 25px;  
 }
 
 .flex-screen7 {
@@ -479,8 +448,6 @@ body {
     margin-top: -235px;
     margin-left: auto;
     margin-right: auto;
-    
-
 }
 
 .flex-item8 {
@@ -496,7 +463,6 @@ body {
 .flex-item8 img {
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
-
 }
 
 #button {
@@ -525,7 +491,6 @@ body {
     border-radius: 30px   
 }
 
-
 #footer {
 	display: fixed;
     left: 0px;
@@ -549,7 +514,6 @@ body {
 	margin-left: 0px;
 	margin-right: 0px;	
 }
-
 
 #legal {	
 	float: left;
