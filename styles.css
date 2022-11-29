@@ -63,7 +63,6 @@ a {
     font-size: 1.6rem;
     font-weight: 400;
     color: #475569;
-  
 }
 
 .nav-link:hover {
@@ -74,14 +73,10 @@ a {
     font-size: 2.1rem;
     font-weight: 500;
     color: #283962;
-    
     align-items: center;
     display: block;
     justify-content: space-between;
-    display: flex;
-    
-    
-    
+    display: flex;  
 }
 
 
@@ -132,79 +127,34 @@ a {
 @media only screen and (min-width: 680px) {
     .flex-screen7
     .flex-screen7
-
     {display:none;}
   }
 
 @media only screen and (min-width: 680px) {
-    .box-model5 
-    {display:none;}
-  }
-
-  @media only screen and (min-width: 680px) {
     .logomobil
     {display:none;}
   }
-
-
 
 @media only screen and (min-width: 680px) {
     .box-model 
     {display:none;}
   }
 
-  @media only screen and (min-width: 680px) {
-    .flex-screen2
-    
-    {display:none;}
-  }
-
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .box-model3 
     {display:none;}
    }
 
-   @media only screen and (max-width: 600px) {
-    .flex-item2
-    {display:none;}
-   }
-
-   @media only screen and (max-width: 600px) {
-    .box-model4
-    {display:none;}
-   }
-
-   @media only screen and (max-width: 600px) {
-    .box-model2
-    {display:none;}
-   }
-
-   @media only screen and (max-width: 600px) {
-    .box-model6
-    {display:none;}
-   }
-
-   @media only screen and (max-width: 600px) {
-    .box-model623 
-    {display:none;}
-   }
-
-   @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .flex-item6
     {display:none;}
    }
 
-   @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .logodesktop
     {display:none;}
    }
 
-
-   @media only screen and (max-width: 600px) {
-    .flex-item8
-
-    {display:none;}
-   }
 
 body {
 	background: #FCFCFC;
@@ -212,49 +162,11 @@ body {
 
 .nav-logo img {
     margin-right: 10px;
-
     height: 60px;
 }
 
-.box-model2 {
-    padding: 5px;
-    margin: auto;
-    color: rgb(255, 255, 255);
-    position: absolute;
-	top: 24%;
-	left: 10%;
-    font-size: 2.1rem;
-    font-family:'Poppins', sans-serif;
-    z-index: 5;
-}
-
-.box-model5 {
-    padding: 5px;
-    margin: auto;
-    color: rgb(255, 255, 255);
-    position: absolute;
-	top: 17%;
-	left: 10%;
-    font-size: 2.1rem;
-    font-family:'Poppins', sans-serif;
-    z-index: 5;
-}
-
-.box-model4 {
-    padding: 5px;
-    margin: auto;
-    color: rgb(255, 255, 255);
-    position: absolute;
-	top: 70%;
-	left: 10%;
-    width: 300px;
-    font-size: 2.1rem;
-    font-family: 'Playfair Display', serif;
-    z-index: 5;
-}
 
 #headerbilde {
-	
 	width: fill;
 	height: 600px;
 	background: url(images/Elmhurst_iStock_000017412926_Double.jpg);
@@ -262,16 +174,13 @@ body {
     background-position: center;
 	border: 0px solid #ffffff;
 	border-radius: 0px;	
-   
 }
 
 .box-model {
     height: 300px;
     padding: 30px;
     margin: auto;
-	
     color: #283962;
- 
     width: 85%;
     position: absolute;
 	margin-top: 280px;
@@ -309,7 +218,6 @@ body {
     position: absolute;
 	margin-top: 106px;
 	left: 41%;
-
 }
 
 .logomobil {
@@ -320,39 +228,8 @@ body {
     position: absolute;
 	margin-top: 106px;
 	left: 32%;
-
 }
 
-.box-model6 {
-    height: 457px;
-    padding-left: 100px;
-    padding-top: 70px;
-    padding-right: 750px;
-    background: linear-gradient(to right, #eef4f5 50%, #eef4f5  50%, #eef4f5 50%, #eef4f5 50%);
-    color: #283962;
-    width: 85%;
-	border-radius: 25px; 
-    line-height: 120%;
-    font-size:  1.90rem;
-    font-family: 'Poppins', sans-serif;
-}
-
-.box-model623 img {
-    position: absolute;
-    margin-top: 74px;
-    margin-left: -121px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-}
-
-.box-model62 {
-    margin: auto;
-    color: #283962;
-    border-radius: 25px; 
-    line-height: 120%;
-    font-size:  1.90rem;
-    font-family: 'Poppins', sans-serif;
-}
 
 #splash {
 	margin-top:40px ;
@@ -363,89 +240,12 @@ body {
 	border-radius: 0px;
 }
 
-.splash2 {
-	margin-top:50px ;
-	width: 1200px;
-	height: 550px;
-	background-color: #ded3cd;
-	border: 0px solid #ffffff;
-	border-radius: 20px;
-    display: flex;
-    margin-left: 120px;
-
-}
-
 #bakgrunn {
 	margin-top:90px ;
 	width: fill;
 	height: 130px;
 	border: 0px solid #ffffff;
 	border-radius: 0px;
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 35px;
-	padding-top: 50px;
-
-}
-
-
-#splash11 {
-	margin-top:00px ;
-	width: fill;
-	height: 800px;
-	background-color: #ded3cd;
-	border: 0px solid #ffffff;
-	border-radius: 0px;
-}
-
-.flex-item {
-    padding: 50px;
-    height: 540px;
-    width: 380px;
-    background-color: #ffffff;
-	border-radius: 25px;
-    font-size: large;
-    margin-bottom: 40px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 500;
-    color: #283962;
-    text-align: center;
-}
-
-.flex-container2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 35px;
-	padding-top: 160px;
-}
-
-.flex-item2 {
-    height: 330px;
-    width: 360px;
-   text-align: center;
-   font-family: 'Playfair Display', serif;
-   color: #283962;
-   font-weight:500;
-}
-
-.flex-screen {
-    display: flex;
-    flex-direction: row;
-    justify-content:center
-}
-
-.flex-screen2 {
-    height: 150px;
-    width: 150px;
-    text-align: center;
-    margin-top: -160px;
 }
 
 .flex-container6 {
@@ -457,14 +257,6 @@ body {
 	padding-top: 0px;
 }
 
-.flex-container8 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 60px;
-}
-
 .flex-item6 {
     height: 330px;
     width: 360px;
@@ -474,46 +266,11 @@ body {
    font-weight:500;
 }
 
-.flex-item6 img {
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-}
-
-.flex-screen7 {
-    display: flex;
-    flex-direction:column;
-    gap: 300px;
-    text-align: center;
-    font-weight:500;
-}
-
-.flex-screen7 img {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;  
-}
-
 .flex-screen7 {
     height: 150px;
     margin-top: -235px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.flex-item8 {
-    height: 330px;
-    width: 360px;
-   text-align: center;
-   font-family: 'Playfair Display', serif;
-   color: #283962;
-   font-weight:500;
-   margin-top: -20px;
-}
-
-.flex-item8 img {
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
 }
 
 a:visited { 
