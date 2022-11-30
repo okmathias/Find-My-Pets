@@ -425,6 +425,7 @@ a:visited {
   input[type="tel"],
   input[type="file"],
   input[type="time"],
+  input[type="image"],
   input[type="url"],
   textarea,
   select {
