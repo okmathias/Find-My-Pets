@@ -238,15 +238,19 @@ body {
     padding-top: 40px;
     padding-right: 30px;
     margin: auto;
-   margin-left:0;
+   margin-left:00;
     width: 50%;
     position: absolute;
 	margin-top: 305px;
-	left: 25%;
+	left: 21%;
 	border-radius: 25px; 
     line-height: 200%;
     font-size:  1.90rem;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+
 }
 
 .logodesktop {
@@ -257,7 +261,7 @@ body {
     margin: auto;
     position: absolute;
 	margin-top: 106px;
-	left: 41%;
+	left: 40%;
 }
 
 .logomobil {
