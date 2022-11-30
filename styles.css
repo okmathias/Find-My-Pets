@@ -182,13 +182,14 @@ body {
 #headerbilde {
 	width: fill;
 	height: 600px;
-	background: url(images/Elmhurst_iStock_000017412926_Double.jpg);
-    background-size: cover;
-    background-position: center;
+	background: url(images/Elmhurst_iStock_000017412926_Double.png);
+  background-size: cover;
+  background-position: center;
 	border: 0px solid #ffffff;
 	border-radius: 0px;	 
-    margin-top: 100px;  
-    align-content: center;
+  margin-top: 100px;  
+  align-content: center;
+  
    
 }
 
