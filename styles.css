@@ -310,6 +310,28 @@ body {
 
 }
 
+
+.box-model4 {
+  height: 270px;
+  padding-left: 60px;
+  padding-top: 40px;
+  padding-right: 30px;
+  
+  
+  width: 37%;
+  position: absolute;
+  margin-top: 320px;
+  left: 21%;
+  border-radius: 25px; 
+  line-height: 200%;
+  font-size:  1.90rem;
+  color: #ffffff;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align: center;
+
+
+}
+
 .logodesktop {
     height: 270px;
     padding-left: 40px;
