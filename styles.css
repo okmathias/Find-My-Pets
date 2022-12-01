@@ -65,7 +65,7 @@ a {
 .nav-link{
     font-size: 1.6rem;
     font-weight: 400;
-    color: #475569;
+    color: #4A5567;
 }
 
 .nav-link:hover {
@@ -160,6 +160,17 @@ a {
    }
 
    @media only screen and (max-width: 600px) {
+    .box-model4
+    {display:none;}
+   }
+
+   @media only screen and (max-width: 600px) {
+    .box-model5
+    {display:none;}
+   }
+
+
+   @media only screen and (max-width: 600px) {
     .column
     {display:none;}
    }
@@ -182,7 +193,7 @@ a {
 
 
 body {
-	background: #FCFCFC;
+	background: #EEEEEE;
 }
 
 .nav-logo img {
@@ -370,7 +381,7 @@ body {
 	margin-top:40px ;
 	width: fill;
 	height: 400px;
-	background-color: #EEEEEE;
+	background-color: #ffffff;
 	border: 0px solid #ffffff;
 	border-radius: 0px;
 }
