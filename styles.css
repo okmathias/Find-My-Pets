@@ -139,6 +139,33 @@ a {
     {display:none;}
   }
 
+  @media only screen and (min-width: 680px) {
+    .box-model9
+    {display:none;}
+  }
+
+  @media only screen and (min-width: 680px) {
+    .box-model7
+    {display:none;}
+  }
+
+  @media only screen and (min-width: 680px) {
+    .box-model8
+    {display:none;}
+  }
+
+
+  @media only screen and (min-width: 680px) {
+    #headerbilde2
+    {display:none;}
+  }
+
+
+  @media only screen and (min-width: 680px) {
+    .box-model6
+    {display:none;}
+  }
+
 @media only screen and (min-width: 680px) {
     .box-model 
     {display:none;}
@@ -158,6 +185,12 @@ a {
     .logodesktop
     {display:none;}
    }
+
+   @media only screen and (max-width: 600px) {
+    #splash
+    {display:none;}
+   }
+
 
    @media only screen and (max-width: 600px) {
     .box-model4
@@ -190,6 +223,19 @@ a {
     {display:none;}
    }
 
+   @media only screen and (max-width: 600px) {
+    #headerbilde
+    {display:none;}
+   }
+
+   @media only screen and (max-width: 600px) {
+    #bakgrunn
+    {display:none;}
+   }
+
+
+ 
+
 
 
 body {
@@ -211,9 +257,19 @@ body {
 	border: 0px solid #ffffff;
 	border-radius: 0px;	 
   margin-top: 100px;  
-  align-content: center;
-  
-   
+  align-content: center; 
+}
+
+#headerbilde2 {
+	width: fill;
+	height: 700px;
+	background: url(images/Elmhurst_iStock_000017412926_Double.png);
+  background-size: cover;
+
+	border: 0px solid #ffffff;
+	border-radius: 0px;	 
+  margin-top: 100px;  
+  align-content: center; 
 }
 
   
@@ -275,7 +331,7 @@ body {
     float: left;
     width: 50%;
     padding: 50px;
-    padding-bottom: 0px;
+   
     margin-top: 90px;
     
   }
@@ -293,11 +349,21 @@ body {
     padding: 20px;
     position: absolute;
 	  margin-top:250px;
-	  left: 0%;
+	  left: 13%;
     line-height: 220%;
     font-size: 12px;
     font-family: 'IBM Plex Sans', sans-serif;
 
+}
+
+.box-model6 {
+  margin-bottom:-60px;
+  font-size: 30px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #52575C;
+  
 }
 
 .box-model3 {
@@ -317,6 +383,20 @@ body {
     color: #ffffff;
     font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
+
+
+}
+
+.box-model9 {
+  height: 1100px;
+  padding-left: px;
+  margin-top: 80px;
+  position:relative ;
+  line-height: 90%;
+  font-size:  15px;
+  color: #52575C;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align: center;
 
 
 }
@@ -345,6 +425,29 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
+.box-model7 {
+  position: absolute;
+  margin-top: 305px;
+  left: 43%;
+  border-radius: 25px; 
+  line-height: 200%;
+  font-size:  1.90rem;
+  color: #ffffff;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.box-model8 {
+  position: absolute;
+  margin-top: 430px;
+  left: 43%;
+  border-radius: 25px; 
+  line-height: 200%;
+  font-size:  1.90rem;
+  color: #ffffff;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
 .logodesktop {
     height: 270px;
     padding-left: 40px;
@@ -368,7 +471,7 @@ body {
     padding-right: 00px;
     position: absolute;
 	  margin-top: 40px;
-	  left:10%;
+	  left:20%;
     right:50%;
     text-align: center;
     font-size:  1.90rem;
@@ -522,11 +625,18 @@ a:visited {
     color: #3B3B3B;
 }
 
-#links {
+#link {
 	float: right;
 	text-decoration: none;
 	color: #ffffff;
 }
+
+#link:hover {
+	float: right;
+	text-decoration:underline;
+	color: #ffffff;
+}
+
 
 .box-model2 {
     padding: 5px;
