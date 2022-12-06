@@ -24,7 +24,7 @@ a {
 }
 .header{
     border-bottom: 1px solid #E2E8F0;
-    background-color: #d0b8a8;
+    background-color: #ffffff;
     position: fixed;
     top: 0;
     width: 100%;
@@ -242,9 +242,23 @@ body {
 	background: #EEEEEE;
 }
 
+.nav-logo img {
+    margin-right: 10px;
+    height: 60px;
+}
 
 
-
+#headerbilde {
+	width: fill;
+	height: 500px;
+	background: url(images/Elmhurst_iStock_000017412926_Double.png);
+  background-size: cover;
+  background-position: center;
+	border: 0px solid #ffffff;
+	border-radius: 0px;	 
+  margin-top: 100px;  
+  align-content: center; 
+}
 
 #headerbilde2 {
 	width: fill;
@@ -562,13 +576,31 @@ a:visited {
    }
 
 #button {
-    border: 2px solid #c5d8a4;
-    color: #c5d8a4;
-
-
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 7px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-around;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    transition: 0.3s;
+    margin-bottom:50px ;
+    margin-left: 80px;
+    margin-right: auto;
   }
 
-
+  #button:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=90);
+    background-color: #ffffff;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+   
 }
 
 #footer {
@@ -645,9 +677,8 @@ a:visited {
   }
   
   form {
-   
-    max-width: 1400px;
-    margin: 0px ;
+    max-width: 300px;
+    margin: 50px ;
     padding: 10px 20px;
     background: #f4f7f8;
     border-radius: 8px;
@@ -702,9 +733,16 @@ a:visited {
   button {
     padding: 19px 39px 18px 39px;
     color: #FFF;
-
+    background-color: #A1CAE1;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
     border-radius: 5px;
-    
+    width: 100%;
+    border: 1px solid #94CAE9;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
   }
   
   fieldset {
@@ -727,5 +765,24 @@ a:visited {
     display: inline;
   }
   
-
+  .number {
+    background-color: #A1CAE1;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+  }
   
+  @media screen and (min-width: 480px) {
+  
+    form {
+      max-width: 480px;
+    }
+  
+  }

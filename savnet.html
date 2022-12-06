@@ -6,39 +6,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
-    <title>Registrer Funnet Kjæledyr - Find My Pet</title>
+    <title>Registrer Savnet Kjæledyr - Find My Pet</title>
 </head>
 
 <body>
-  <header class="header">
-      <nav class="navbar">
+    <header class="header">
+        <nav class="navbar">
 
-          <a href="index.html" class="nav-logo"><img src="" alt="nav-logo"/></a>
-          
-          <ul class="nav-menu">
+            <a href="index.html" class="nav-logo"><img src="images/Untitled-3.png" alt="nav-logo"/>Find My Pet</a>
+            
+            <ul class="nav-menu">
               <li class="nav-item">
-                  <a href="savnet.html" class="nav-link">Gratis tag</a>
-              </li>
-              <li class="nav-item">
-                  <a href="funnet.html" class="nav-link">Om Oss</a>
+                  <a href="savnet.html" class="nav-link">Savnet</a>
               </li>
               <li class="nav-item">
-                  <a href="oversikt-savnet.html" class="nav-link">Profil</a>
+                  <a href="funnet.html" class="nav-link">Funnet</a>
               </li>
-        
+              <li class="nav-item">
+                  <a href="oversikt-savnet.html" class="nav-link">Meldt Savnet</a>
               </li>
-              
-          
+              <li class="nav-item">
+                  <a href="oversikt-funnet.html" class="nav-link">Meldt Funnet</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link">Søk</a>
+              </li>
+              <li class="nav-item">
+                  <a href="index.html" class="nav-link">Profil</a>
+              </li>
 
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
         
     </header>
 
+    <section class="flex-container-funnet-venstre">
 
+        <div class="item-funnet-venstre"> 
+            <img src="images/doghøyre.png" width="671"> </div>
+            
+            <div class="item-funnet-venstre"> 
+                <img src="images/cathøyre.png" width="671"> </div>
+
+                <div class="item-funnet-venstre"> 
+                  <img src="images/doghøyre2.png" width="671"> </div>
+    
+            </section>
+
+    <section class="flex-container-funnet">
+    
+</section> 
+
+<div class="box-model6">
+  <p>Registrer Savnet Kjæledyr</p></div>
+
+    <div class="box-model2">
+        <h1>Registrer Savnet Kjæledyr</h1></div>
+        <br>
+        <br>
+    
 <html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Funnet</title>
+        <title>Savnet</title>
         
     </head>
     <body>
@@ -49,24 +85,26 @@
        
         <fieldset>
           
-  
-          <label>Hva slags dyr har du funnet:</label>
+          <legend><span class="number">1</span> Hendelsen </legend>
+        
+          <label>Hva slags dyr savner du:</label>
           <input type="radio" id="hund" value="hund" name="hund"><label for="hund" class="light">Hund</label> &nbsp&nbsp&nbsp&nbsp&nbsp
           <input type="radio" id="katt" value="katt" name="katt"><label for="katt" class="light">Katt</label> &nbsp&nbsp&nbsp&nbsp&nbsp
           <input type="radio" id="fugl" value="fulg" name="fugl"><label for="fugl" class="light">Fugl</label> &nbsp&nbsp&nbsp&nbsp&nbsp
           <input type="radio" id="annet" value="annet" name="annet"><label for="annet" class="light">Annet</label> &nbsp&nbsp&nbsp&nbsp&nbsp <br>
 
-          <label for="email"><br>Når fant du dyret:</label>
+          <label for="email"><br>Når mistet du dyret:</label>
           <input type="date" id="mail" name="dato">
           <input type="time" id="mail" name="tid">
        
-          <label for="text">Hvor fant du dyret:</label>
+          <label for="text">Hvor mistet du dyret:</label>
           <input type="text" id="hvor"       name="hvor">
           
         </fieldset>
         <fieldset>  
         
-  
+          <legend><span class="number">2</span> Dyret</legend>
+
           <label for="job">Hvilken rase er dyret:</label>
           <select id="job" name="rase">
             <optgroup label="Hund">
@@ -80,7 +118,7 @@
               <option value="Labrador">Afghansk Mynde</option>
               <option value="Labrador">Beagle</option>
             </optgroup>
-      
+    
           </select>
 
           <label for="text">Har dyret halsbånd / navn:</label>
@@ -112,7 +150,6 @@
           <input type="checkbox" id="development" value="interest_hvit" name="user_interest"><label class="light" for="development">Stri</label> &nbsp&nbsp&nbsp
           <input type="checkbox" id="design" value="interest_svart" name="user_interest"><label class="light" for="design">Tykk</label> &nbsp&nbsp&nbsp
           <input type="checkbox" id="business" value="interest_blå" name="user_interest"><label class="light" for="business">Flokete</label> &nbsp&nbsp&nbsp
-         
           <label for="personlighet"><br>Beskriv dyrets personlighet:</label>
           <textarea id="bio" name="personlighet"></textarea>
 
@@ -122,25 +159,24 @@
           <label for="bilde">Last opp bildet av dyret:</label>
           <input type="file" id="bilde"       name="navn">
 
-         <label for="bilde">Har du levert inn dyret:</label>
-         <input type="radio" id="hund" value="hund" name="hund"><label for="hund" class="light">Ja</label> &nbsp&nbsp&nbsp&nbsp&nbsp
-         <input type="radio" id="hund" value="hund" name="hund"><label for="hund" class="light">Nei</label>
-         <fieldset>  </fieldset>
-         <label for="kjennetegn">Hvis ja, hvor:</label>
-         <input type="text" id="navn"       name="navn">
-
-         <fieldset>  
-        </fieldset>
+          <fieldset>  
+         </fieldset>
+       
         <button type="submit">Publiser</button>
         <fieldset>  
         </fieldset>
+        <legend><span class="number">3</span> Print</legend>
+         
+        <label for="bilde">Print ut plakat:</label>
+         <input type="file" id="bilde"       name="navn">
+        <fieldset>  
 
        </form>
         </div>
       </div>
-    
+      
       <script src="/main.js"></script>
-  
+
 </body>
 </html>
 
