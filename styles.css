@@ -498,7 +498,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 60px;
-	padding-top: 0px;
+	  padding-top: 0px;
 }
 
 .flex-item6 {
@@ -531,21 +531,14 @@ body {
 
 .flex-container-funnet-venstre {
   float: right;
-  
   display:grid;
   overflow: hidden
-  
-  
-  
 }
 
-.item-funnet-venstre {
-  
+.item-funnet-venstre { 
   margin-right: 40px;
   gap: 60px;
   padding-top: 80px;
-  
-  
 }
 
 .flex-screen7 {
@@ -626,6 +619,7 @@ a:visited {
 #link:hover {
 	float: right;
 	text-decoration: underline;
+  text-decoration-color: #000000;
 	color: #ffffff;
 }
 
