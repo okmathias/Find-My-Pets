@@ -82,8 +82,6 @@ a {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-
-
 @media only screen and (max-width: 768px) {
     .nav-menu {
         position: fixed;
@@ -232,11 +230,6 @@ a {
     {display:none;}
    }
 
-
- 
-
-
-
 body {
 	background: #EEEEEE;
 }
@@ -245,7 +238,6 @@ body {
     margin-right: 10px;
     height: 60px;
 }
-
 
 #headerbilde {
 	width: fill;
@@ -270,7 +262,6 @@ body {
   margin-top: 100px;  
   align-content: center; 
 }
-
   
   .text-block {
     position: relative;
