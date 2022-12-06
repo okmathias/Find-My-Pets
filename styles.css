@@ -12,7 +12,6 @@
 html {
     font-size: 62.5%;
     font-family: 'IBM Plex Sans', sans-serif;
-
 }
 
 li {
@@ -20,7 +19,7 @@ li {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .header{
     border-bottom: 1px solid #E2E8F0;
@@ -171,64 +170,64 @@ a {
     {display:none;}
   }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 680px) {
     .box-model3 
     {display:none;}
    }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 680px) {
     .flex-item6
     {display:none;}
    }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 680px) {
     .logodesktop
     {display:none;}
    }
 
-   @media only screen and (max-width: 600px) {
+   @media only screen and (max-width: 680px) {
     #splash
     {display:none;}
    }
 
 
-   @media only screen and (max-width: 600px) {
+   @media only screen and (max-width: 680px) {
     .box-model4
     {display:none;}
    }
 
-   @media only screen and (max-width: 600px) {
+   @media only screen and (max-width: 680px) {
     .box-model5
     {display:none;}
    }
 
 
-   @media only screen and (max-width: 600px) {
+   @media only screen and (max-width: 680px) {
     .column
     {display:none;}
    }
 
-   @media only screen and (max-width: 600px) {
+   @media only screen and (max-width: 680px) {
     .box-model2
     {display:none;}
    }
 
-   @media only screen and (max-width: 600px) {
+   @media only screen and (max-width: 680px) {
     .flex-item-funnet
     {display:none;}
    }
 
-   @media only screen and (max-width: 600px) {
+   @media only screen and (max-width: 680px) {
     .item-funnet-venstre
     {display:none;}
    }
 
-   @media only screen and (max-width: 600px) {
+   @media only screen and (max-width: 680px) {
     #headerbilde
     {display:none;}
    }
 
-   @media only screen and (max-width: 600px) {
+   @media only screen and (max-width: 680px) {
     #bakgrunn
     {display:none;}
    }
@@ -331,9 +330,7 @@ body {
     float: left;
     width: 50%;
     padding: 50px;
-   
-    margin-top: 90px;
-    
+    margin-top: 90px; 
   }
   
   
@@ -623,7 +620,6 @@ a:visited {
 	color: #ffffff;
 }
 
-
 .box-model2 {
     padding: 5px;
     margin: auto;
@@ -636,11 +632,6 @@ a:visited {
     z-index: 5;
     line-height: 70%;
 }
-
-
-
-
-
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
