@@ -152,7 +152,7 @@ a {
   }
 
 
-  @media only screen and (min-width: 680px) {
+  @media only screen and (min-width: 600px) {
     #headerbilde2
     {display:none;}
   }
@@ -220,10 +220,6 @@ a {
     {display:none;}
    }
 
-   @media only screen and (max-width: 680px) {
-    #headerbilde
-    {display:none;}
-   }
 
    @media only screen and (max-width: 680px) {
     #bakgrunn
@@ -249,6 +245,7 @@ body {
 	border-radius: 0px;	 
   margin-top: 100px;  
   align-content: center; 
+  object-fit: cover;
 }
 
 #headerbilde2 {
