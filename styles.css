@@ -356,16 +356,6 @@ body {
 
 }
 
-.box-model6 {
-  margin-bottom:-60px;
-  font-size: 30px;
-  font-family: 'IBM Plex Sans', sans-serif;
-  text-align: center;
-  font-weight: bold;
-  color: #52575C;
-  
-}
-
 .box-model3 {
     height: 270px;
     padding-left: 60px;
@@ -386,29 +376,6 @@ body {
 
 
 }
-
-.box-model9 {
-  height: 1100px;
-  padding-left: px;
-  margin-top: 80px;
-  position:relative ;
-  line-height: 90%;
-  font-size:  15px;
-  color: #52575C;
-  font-family: 'IBM Plex Sans', sans-serif;
-  text-align: center;
-
-
-}
-
-
-
-
-
-
-
-
-
 .box-model4 {
   position: absolute;
   margin-top: 360px;
@@ -432,6 +399,15 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
+.box-model6 {
+  margin-bottom:-60px;
+  font-size: 30px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #52575C;
+  
+}
 .box-model7 {
   position: absolute;
   margin-top: 305px;
@@ -454,6 +430,18 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
+.box-model9 {
+  height: 1100px;
+  padding-left: px;
+  margin-top: 80px;
+  position:relative ;
+  line-height: 90%;
+  font-size:  15px;
+  color: #52575C;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align: center;
+
+}
 
 .logodesktop {
     height: 270px;
@@ -551,7 +539,6 @@ body {
   
 }
 
-
 .item-funnet-venstre {
   
   margin-right: 40px;
@@ -560,8 +547,6 @@ body {
   
   
 }
-
-
 
 .flex-screen7 {
     height: 150px;
@@ -634,13 +619,13 @@ a:visited {
 
 #link {
 	float: right;
-	text-decoration: none;
+	text-decoration: underline;
 	color: #ffffff;
 }
 
 #link:hover {
 	float: right;
-	text-decoration:underline;
+	text-decoration: underline;
 	color: #ffffff;
 }
 
