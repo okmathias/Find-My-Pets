@@ -173,6 +173,7 @@ a {
     {display:none;}
    }
 
+
 @media only screen and (max-width: 680px) {
     .flex-item6
     {display:none;}
@@ -185,17 +186,6 @@ a {
 
    @media only screen and (max-width: 680px) {
     #splash
-    {display:none;}
-   }
-
-
-   @media only screen and (max-width: 680px) {
-    .box-model4
-    {display:none;}
-   }
-
-   @media only screen and (max-width: 680px) {
-    .box-model5
     {display:none;}
    }
 
