@@ -162,12 +162,12 @@ a {
     .box-model6
     {display:none;}
   }
-/* Hva er dette?
+
 @media only screen and (min-width: 680px) {
     .box-model 
     {display:none;}
   }
-*/
+
 @media only screen and (max-width: 680px) {
     .overlay-frontpage-picture 
     {display:none;}
