@@ -169,13 +169,13 @@ a {
   }
 
 @media only screen and (max-width: 680px) {
-    .overlay-frontpage-picture 
+    .box-model3 
     {display:none;}
    }
 
 
 @media only screen and (max-width: 680px) {
-    .information-item
+    .flex-item6
     {display:none;}
    }
 
@@ -320,7 +320,6 @@ body {
 
 
 
-/* hva er dette?
 .box-model {
     padding: 20px;
     position: absolute;
@@ -331,9 +330,8 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
 
 }
-*/
 
-.overlay-frontpage-picture {
+.box-model3 {
     height: 270px;
     padding-left: 60px;
     padding-top: 40px;
@@ -469,7 +467,7 @@ body {
 	border-radius: 0px;
 }
 
-.information-container {
+.flex-container6 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -478,7 +476,7 @@ body {
 	  padding-top: 0px;
 }
 
-.information-item {
+.flex-item6 {
     height: 330px;
     width: 360px;
    text-align: center;
